@@ -1,0 +1,10 @@
+b
+cdq 分治
+sort(l,r,[](node&a,node&b){
+    return ;
+})左闭右开
+树状数组
+while(i<=M){
+    a[i]+=x;
+    i+=lowbit(i);
+}

@@ -1,0 +1,9 @@
+A Dominating Patterns
+给你一些短串,问在长串中出现的次数
+
+B　Revolving digits
+拓展KMP+常用技巧，将循环串拆为两倍
+
+C Substring
+敲键盘K次,问不出现任何一个模式串的概率
+注意初始化的问题

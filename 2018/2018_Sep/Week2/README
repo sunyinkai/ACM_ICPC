@@ -1,0 +1,3 @@
+POJ3903 LIS用线段树维护
+ball_and_racket  
+有N个人问至少有a个球b个拍的方案数
