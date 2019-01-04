@@ -1,1 +1,23 @@
-this is an ACM-ICPC code repositoriy of yinkai sun.
+this is an algorithm code repositoriy .
+------------------
+2018 :
+	the code from summer training and  the season in 2018
+51nod :
+	the problems from 51nod
+Codefroces/Round :
+	the contests of contests
+FutherTraining :
+	the daily training in the training team
+Hihocoder :
+	the contests of hihocoder
+Nowcoder :
+	the contests of nowcoder
+Templates :
+	some algorithm templates,such as RMQ,KMP,Trie,tarjan and so on
+Topic :
+	some topics,such as dp,data_structure,graph and so on 
+TrainingGuid :
+	the chapter of the book called "TrainingGuid"
+
+ps.
+  the gitpage:  sunyinkai.github.io
