@@ -37,7 +37,41 @@ dp[i][j]:走到i,j能获得的最大价值
 ------------------
 1003 
 询问N!后有多少个0(N<=1e6)
-solution:
+solution 1:
 求1~N中,每个数唯一分解后有多少个2,5.
 自大到小容斥即可,即2^k,2^(k-1),2^(k-2)
 答案是:min(cnt2,cnt5)
+solution 2:
+	while(N){s+=N/5;N/=5;}
+---------------------
+
+1090 
+询问一个数组中和0的三元组的个数，数组里面任意两个数不相等(N<=1000).
+solution 1:
+O(N^2)
+先折半，然后问题关键在于去重,每一个node存储两个值，一个是合成后的val
+还有一个是id,二分查找到和为0的范围后，判断id是否重复即可。
+二分代码:
+for(int i=0;i<N;++i){
+	node t;t.id=-1;
+	t.val=-a[i];
+	int begin=lower_bound(no,no+top,t)-no;
+	t.val=-a[i]+1;
+	int end=lower_bound(no,no+top,t)-no;
+	for(int j=begin;j<end;++j){//do something}
+}
+solution 2:
+枚举起点i,然后尺取法O(N)求j,k
+----------------------
+1381
+抛半径为R硬币半径与直线相交的条数.直线间距为1.
+solution:
+ans=2*R
+
+---------------------------
+1091 贪心*
+给你N段线段，请你从中选出两条线段，使得他们的重叠部分最大。
+solution:
+先sort,按起点从小到大排序，起点相同，终点从大到小排序
+维护一个max_end,既右端点最多延伸到哪了
+ans=max(ans,min(max_end,no[i].r)-no[i].l);
