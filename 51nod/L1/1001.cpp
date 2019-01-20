@@ -23,5 +23,6 @@ int main(){
 		}
 	}
 	if(!hasAns)printf("No solution\n");
+
 	return 0;
 }
