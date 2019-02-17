@@ -1,0 +1,6 @@
+1110_C 
+求最大的gcd(a,b),a+b=x
+solution:
+因为gcd(a,b)==gcd(a+b,b)
+所以gcd(a,b)=gcd(x,b)
+O(sqrt(x))求x的最大因子即可.

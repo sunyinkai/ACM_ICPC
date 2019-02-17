@@ -1,0 +1,6 @@
+31 求当前排列的下一个排列,要求常数级空间
+solution: 从右往左找到第一个顺序对，记为id,然后找到[id,len)的大于nums[id]的
+最小的数，交换顺序，再将[id+1,len)sort一下即可
+
+34 给一个递增序列，从里面找到数字target的起始区间和结束区间
+solution: 二分,实现lower_bound和upper_bound即可
