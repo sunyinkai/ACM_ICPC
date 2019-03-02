@@ -4,3 +4,6 @@ solution:
 因为gcd(a,b)==gcd(a+b,b)
 所以gcd(a,b)=gcd(x,b)
 O(sqrt(x))求x的最大因子即可.
+
+118_D2
+
