@@ -2,7 +2,7 @@
 //不能关闭同步
 //只能读入int
 //不能与其他scanf,cin混合读
-const int BUF_SIZE=40960
+const int BUF_SIZE=40960;
 struct f {
     int cur, eof;
     char buf[BUF_SIZE];

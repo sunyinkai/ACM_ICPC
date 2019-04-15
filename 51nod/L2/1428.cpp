@@ -1,3 +1,4 @@
+//tag: prefix_sum
 #include<bits/stdc++.h>
 using namespace std;
 map<int,int>mp;

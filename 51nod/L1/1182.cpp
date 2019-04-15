@@ -1,3 +1,4 @@
+//tag: greedy
 #include<cstdio>
 #include<cstring>
 #include<algorithm>
