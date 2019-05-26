@@ -9,6 +9,7 @@ long long fast_pow(long long base,long long n){
 	}
 	return ans;
 }
+
 int main(){
 	long long a,b;scanf("%lld%lld",&a,&b);
 	printf("%lld\n",fast_pow(a,b));
