@@ -1,7 +1,4 @@
 //tag: stack
-//找到01矩阵中最大全1矩形的面积 51nod1158
-//O(N)找到第一个比a[i]小的/大的数
-
 #include<cstdio>
 #include<algorithm>
 using namespace std;
