@@ -54,6 +54,7 @@ int main(){
             if(x==1)up[j]+=1;
             else up[j]=0;
         }
+       //up为高度
        ans=max(solve(),ans);
     }
     printf("%d\n",ans);

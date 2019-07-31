@@ -12,7 +12,9 @@ struct edge{
 		return cost>other.cost;
 	}
 };
+
 vector<edge>G[MAXN];
+
 int N,M; 
 int d[MAXN],visit[MAXN];
 
@@ -23,7 +25,7 @@ void dijkstra(int s){
 	priority_queue<edge>q;
 	q.push(edge{s,0});
 	while(!q.empty()){
-		const edge e=q.top();q.pop();
+		const edge e=q.top();q.pop(); //这个地方千万不能加引用
 		int u=e.to;
 		if(visit[u])continue;
 		visit[u]=1;
