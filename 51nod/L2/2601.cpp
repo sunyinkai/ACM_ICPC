@@ -1,5 +1,4 @@
-//tag: binary_search
-
+//tag: binary_search,hash
 #include<cstdio>
 #include<unordered_map>
 

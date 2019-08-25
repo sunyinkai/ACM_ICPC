@@ -34,4 +34,8 @@ solution:
 
 hiho1678
 版本号排序 ,重载小于符号
+bool cmp(string now,string front){
 
+}
+now:当前元素,front前面一个元素
+cmp返回true,代表交换;返回false代表不交换.
